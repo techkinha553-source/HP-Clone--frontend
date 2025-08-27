@@ -1,0 +1,137 @@
+body {
+  min-height: 100vh;
+  /* background-image: linear-gradient(to top, #0b0b0b 0%, #1c1818 50%, #000000 100%); */
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: newhpicon;
+  overflow-x: hidden;
+  font-family: FormaDJRMicro, -apple-system, "system-ui", sans-serif;
+}
+
+.nav-container:nth-child(1) {
+  height: 85px;
+}
+
+.hp-logo {
+  margin-top: 6px;
+  border-radius: 50px;
+  margin-left: 95px;
+}
+
+.nav-container div:nth-child(1) ul {
+  margin-top: 28px;
+  gap: 45px;
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: FormaDJRMicro, -apple-system, "system-ui", sans-serif;
+}
+
+.search {
+  background-color: #0096D6;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  color: white;
+  height: 52px;
+  width: 400px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.search-input {
+  /* background: transparent; */
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial;
+  flex: 1;
+  outline: none;
+}
+
+.search:hover {
+  cursor: text;
+}
+
+.s-icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+.s-icon:hover {
+  width: 35px;
+  height: 35px;
+}
+
+.sign-in {
+  color: white;
+  font-family: FormaDJRMicro, -apple-system, "system-ui", sans-serif;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 3px 15px;
+  height: 46px;
+  margin-top: 5px;
+  margin-left: 16px;
+  background-color: #0096D6;
+  gap: 6px;
+  align-items: center;
+  transition: all 0.1 ease;
+}
+
+.sign-in:hover{
+  cursor: pointer;
+  height: 50px;
+  font-size: larger;
+}
+
+.cart {
+  margin-left: 25px;
+  transition: all 0.1 ease;
+  cursor: pointer;
+}
+
+.cart:hover{
+  width: 35px;
+  height: 35px;
+}
+.img-body {
+  display: flex;
+  background-color: rgb(221, 221, 221);
+  background-image: linear-gradient(to top, #a1d9f1 0%, #60c4ee 50%, #0096D6 100%);
+}
+
+.img-body>div:first-child {
+  font-family: FormaDJRUI, -apple-system, "system-ui", sans-serif;
+}
+
+.img-body>div:nth-child(2) {
+  font-family: FormaDJRUI, -apple-system, "system-ui", sans-serif;
+}
+
+.img-body h3 {
+  font-family: FormaDJRUI, -apple-system, "system-ui", sans-serif;
+}
+
+.img-body button {
+  background-color: #0096D6;
+}
+
+.item-text-container {
+  font-family: FormaDJRMicro, -apple-system, "system-ui", sans-serif;
+}
+
+.E-C {
+  background-color: #74c7eb;
+  font-family: FormaDJRMicro, -apple-system, "system-ui", sans-serif;
+}
+
+.shop {
+  background-color: #60c4ee;
+} 
